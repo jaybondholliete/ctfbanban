@@ -1,0 +1,29 @@
+# OSINT Information Gathering Tool - Requirements
+# Python 3.6+ required
+
+# GUI Framework
+tkinter==0.1.0
+
+# Note: tkinter usually comes pre-installed with Python
+# If you encounter issues with tkinter, install it via your system package manager:
+# 
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# Fedora: sudo dnf install python3-tkinter
+# macOS: brew install python-tk
+# Windows: tkinter is included with Python installation
+
+# All other required modules are part of Python standard library:
+# - re (Regular Expressions)
+# - json (JSON handling)
+# - socket (Network operations)
+# - urllib (URL handling)
+# - ssl (SSL/TLS support)
+# - threading (Multi-threading)
+# - datetime (Date/time handling)
+# - collections (Data structures)
+# - filedialog (File dialogs)
+# - messagebox (Message boxes)
+# - scrolledtext (Scrolled text widget)
+
+# No additional pip packages required!
+# This tool uses only Python standard library modules.
